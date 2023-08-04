@@ -1,0 +1,60 @@
+{
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"files.exclude": {
+		"**/.git": true,
+		"**/*.log": true,
+		"build": true,
+		"build-*": true
+	},
+	"files.watcherExclude": {
+		"**/.git": true,
+		"**/*.log": true,
+		"build": true,
+		"build-*": true,
+	},
+	"search.exclude": {
+		"**/*.code-search": true
+	},
+	"files.autoSave": "afterDelay",
+	"todohighlight.include": [
+		"**/*.c",
+		"**/*.h",
+		"**/*.cpp",
+		"**/*.hpp"
+	],
+	"todohighlight.keywords": [
+		"TODO",
+		"FIXME"
+	],
+	"editor.suggest.insertMode": "insert",
+	"editor.rulers": [
+		120
+	],
+	"editor.tabCompletion": "on",
+	"editor.formatOnSave": true,
+	"atlascode.jira.enabled": true,
+	"redhat.telemetry.enabled": false,
+	"atlascode.bitbucket.enabled": false,
+	"doxdocgen.generic.splitCasingSmartText": false,
+	"doxdocgen.cpp.ctorText": "Class {name} constructor",
+	"doxdocgen.cpp.dtorText": "Class {name} destructor",
+	"doxdocgen.generic.paramTemplate": "@param[in] {param}",
+	"cmake.configureOnOpen": false,
+	"cmake.configureOnEdit": false,
+	"cmake.copyCompileCommands": "${workspaceFolder}/build/compile_commands.json",
+	"C_Cpp.intelliSenseCacheSize": 2560,
+	"C_Cpp.clang_format_style": "file:${workspaceFolder}/.vscode/clang-format",
+	"C_Cpp.autoAddFileAssociations": false,
+	"C_Cpp.autocompleteAddParentheses": true,
+	//"C_Cpp.codeAnalysis.clangTidy.useBuildPath": true,
+	//"C_Cpp.codeAnalysis.clangTidy.args": [
+	//	"--config-file=${workspaceFolder}/.vscode/clang-tidy"
+	//],
+	"C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+	"C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+	"C_Cpp.inlayHints.parameterNames.enabled": true,
+	"C_Cpp.inlayHints.referenceOperator.enabled": true
+	//"C_Cpp.codeAnalysis.clangTidy.enabled": true,
+	//"C_Cpp.codeAnalysis.clangTidy.path": "/usr/bin/clang-tidy"
+}
