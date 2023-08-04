@@ -13,7 +13,7 @@
 			"hidden": true,
 			"generator": "Ninja",
 			"cacheVariables": {
-				"CMAKE_TOOLCHAIN_FILE": "/home/jesvan59903/Projects/br_lfcbox/output/host/share/buildroot/toolchainfile.cmake"
+				"CMAKE_TOOLCHAIN_FILE": "/home/user/br_folder/output/host/share/buildroot/toolchainfile.cmake"
 			}
 		},
 		{
