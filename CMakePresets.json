@@ -11,10 +11,7 @@
 			"displayName": "Common preset",
 			"description": "Default config for all presets",
 			"hidden": true,
-			"generator": "Ninja",
-			"cacheVariables": {
-				"CMAKE_TOOLCHAIN_FILE": "/home/user/br_folder/output/host/share/buildroot/toolchainfile.cmake"
-			}
+			"generator": "Ninja"
 		},
 		{
 			"inherits": "common",
