@@ -1,0 +1,23 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+	<file>images/F_dial_background_0105.png</file>
+	<file>images/dial_background_b4.png</file>
+	<file>images/dial_background_fuel.png</file>
+	<file>images/font.ttf</file>
+	<file>images/background.png</file>
+	<file>images/dial_background_fe1805.png</file>
+	<file>images/dial_background_hybridfuel.png</file>
+	<file>images/needle.png</file>
+	<file>images/dial_background.png</file>
+	<file>images/dial_background_ff1202.png</file>
+	<file>images/dial_background_oil_temperature.png</file>
+	<file>images/needle2.png</file>
+	<file>images/dial_background_0c.png</file>
+	<file>images/dial_background_ff1226.png</file>
+	<file>images/dial_background_water_temperature.png</file>
+	<file>images/valueFont.ttf</file>
+	<file>images/dial_background_5b.png</file>
+	<file>images/dial_background_ff126b.png</file>
+	<file>images/display_background.png</file>
+</qresource>
+</RCC>
