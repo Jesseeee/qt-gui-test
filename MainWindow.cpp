@@ -146,8 +146,8 @@ MainWindow::MainWindow()
 	QPixmap needleTpsPixmap(":/images/needle2.png");
 	needleTpsPixmap			 = needleTpsPixmap.scaled(230, 230, Qt::AspectRatioMode::KeepAspectRatio);
 	QPixmap rotatedTpsPixmap = needleTpsPixmap.transformed(transformTurbo);
-	needleEgt->setPixmap(rotatedTpsPixmap);
-	needleEgt->setAlignment(Qt::AlignmentFlag::AlignCenter);
+	needleTps->setPixmap(rotatedTpsPixmap);
+	needleTps->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
 	// SLIDERS
 	QSlider *sliderTurbo = new QSlider(Qt::Orientation::Horizontal, this);
