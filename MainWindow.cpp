@@ -70,10 +70,10 @@ MainWindow::MainWindow()
 	turboTextValue->setStyleSheet("color: rgb(255, 0, 0);");
 
 	QLabel *turboTextUnit = new QLabel(this);
-	turboTextValue->setFont(textFont);
-	turboTextValue->setAlignment(Qt::AlignmentFlag::AlignCenter);
-	turboTextValue->setText("Bar");
-	turboTextValue->setStyleSheet("color: rgb(255, 0, 0);");
+	turboTextUnit->setFont(textFont);
+	turboTextUnit->setAlignment(Qt::AlignmentFlag::AlignCenter);
+	turboTextUnit->setText("Bar");
+	turboTextUnit->setStyleSheet("color: rgb(255, 0, 0);");
 
 	QLabel *needleTurbo = new QLabel(this);
 
